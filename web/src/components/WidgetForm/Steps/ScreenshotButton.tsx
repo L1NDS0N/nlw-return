@@ -33,6 +33,7 @@ export function ScreenshotButton({
         }}
         onClick={() => onScreenshotTook(null)}
       >
+        {""}
         <Trash weight="fill" />
       </button>
     );

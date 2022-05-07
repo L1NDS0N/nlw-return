@@ -36,7 +36,7 @@ export class SubmitFeedbackUseCase {
         `<br />`,
         `<p>Tipo de feedback: ${type}</p>`,
         `<p>Comentário: ${comment}</p>`,
-        `<p>Screenshot: ${screenshot}</p>`,
+        screenshot ? `<img src="${screenshot}">` : ``,
         `<p>Data: ${new Date().toLocaleString()}</p>`,
         `<hr />`,
         `</div>`,
